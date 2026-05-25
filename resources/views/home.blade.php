@@ -23,11 +23,11 @@
         <div class="grid md:grid-cols-2 gap-12 items-center">
             
             <div class="z-10">
-                <h1 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
-                    Bergabunglah dengan<br><span class="text-blue-200">Generasi Cerdas Gemilang</span>
+                <h1 class="text-5xl md:text-4xl font-bold leading-tight mb-6">
+                    SMP Negeri 1 Kalipucang<br><span class="text-blue-200">Generasi Cerdas Gemilang</span>
                 </h1>
                 <p class="text-xl text-blue-100 mb-8 leading-relaxed">
-                    Seleksi Penerimaan Murid Baru Tahun Ajaran 2026/2027 telah dibuka. Daftarkan diri Anda sekarang dan raih kesempatan terbaik bersama kami!
+                    Seleksi Penerimaan Murid Baru Tahun Ajaran 2026/2027 <br/>SMP Negeri 1 Kalipucang telah dibuka. Daftarkan diri Anda sekarang dan raih kesempatan terbaik bersama kami!
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4">
