@@ -19,9 +19,9 @@
                 <a href="/daftar" class="text-white hover:text-blue-100 font-medium transition {{ request()->is('daftar') ? 'border-b-2 border-blue-300' : '' }}">
                     ✍️ Pendaftaran
                 </a>
-                <a href="/pengumuman" class="text-white hover:text-blue-100 font-medium transition {{ request()->is('pengumuman') ? 'border-b-2 border-blue-300' : '' }}">
+                <!-- <a href="/pengumuman" class="text-white hover:text-blue-100 font-medium transition {{ request()->is('pengumuman') ? 'border-b-2 border-blue-300' : '' }}">
                     📢 Pengumuman
-                </a>
+                </a> -->
                 <a href="/hasil" class="text-white hover:text-blue-100 font-medium transition {{ request()->is('hasil') ? 'border-b-2 border-blue-300' : '' }}">
                     📋 Hasil
                 </a>

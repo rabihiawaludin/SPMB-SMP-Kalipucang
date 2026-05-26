@@ -142,7 +142,7 @@
                 </div>
                 <div class="pt-2 pb-8">
                     <h3 class="text-2xl font-bold text-gray-800">Pendaftaran Online</h3>
-                    <p class="text-gray-600 mt-2">1 - 15 Juni 2026</p>
+                    <p class="text-gray-600 mt-2">2 Juni - 26 Juni 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Buka portal pendaftaran dan isi formulir dengan data diri yang lengkap dan benar. Pastikan semua persyaratan administrasi terpenuhi.</p>
                 </div>
             </div>
@@ -156,7 +156,7 @@
                 </div>
                 <div class="pt-2 pb-8">
                     <h3 class="text-2xl font-bold text-gray-800">Verifikasi & Seleksi</h3>
-                    <p class="text-gray-600 mt-2">16 - 30 Juni 2026</p>
+                    <p class="text-gray-600 mt-2">29 Juni - 4 Juli 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Tim kami akan memverifikasi data yang Anda kirimkan. Hasil verifikasi akan dikirimkan melalui email dan portal pendaftaran.</p>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                 </div>
                 <div class="pt-2 pb-8">
                     <h3 class="text-2xl font-bold text-gray-800">Pengumuman Hasil</h3>
-                    <p class="text-gray-600 mt-2">1 Juli 2026</p>
+                    <p class="text-gray-600 mt-2">6 Juli 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Pengumuman resmi hasil SPMB akan dipublikasikan secara bersamaan. Cek hasil Anda melalui portal dengan nomor registrasi dan tanggal lahir.</p>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="pt-2">
                     <h3 class="text-2xl font-bold text-gray-800">Daftar Ulang</h3>
-                    <p class="text-gray-600 mt-2">5 - 10 Juli 2026</p>
+                    <p class="text-gray-600 mt-2">8 Juli - 10 Juli 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Peserta yang diterima harus melakukan daftar ulang dengan membawa dokumen asli dan fotokopi sesuai syarat yang ditentukan.</p>
                 </div>
             </div>
@@ -193,8 +193,86 @@
     </div>
 </div>
 
+<!-- Pengumuman Section -->
+<div class="bg-gray-50 py-16 md:py-24">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">📅 📢 Pengumuman PPDB</h2>
+            <p class="text-xl text-gray-600">Informasi terbaru mengenai Penerimaan Peserta Didik Baru</p>
+        </div>
+
+        <!-- Pengumuman Cards -->
+        <div class="space-y-8">
+            <!-- Pengumuman 2 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-green-600 hover:shadow-xl transition">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">
+                            Persyaratan Administrasi Pendaftaran
+                        </h2>
+                        <p class="text-gray-600 mb-4">
+                            Calon peserta didik harus memenuhi persyaratan administrasi sebagai berikut:
+                        </p>
+                        <ul class="list-disc ml-5 text-gray-600 space-y-1 mb-4">
+                            <li>Fotocopy Ijazah / Surat Keterangan Lulus</li>
+                            <li>Fotocopy Ijazah Madrasah Diniyah (jika ada)</li>
+                            <li>Surat Keterangan Berkelakuan Baik;</li>
+                            <li>Fotocopy akte kelahiran atau kenal lahir</li>
+                            <li>Fotocopy Kartu Keluarga (KK) beserta KTP orang tua</li>
+                            <li>Fotocopy  Piagam / Setifikat Prestasi (Jika ada)</li>
+                            <li>Fotocopy Kartu Indonesia Pintar (KIP) /PKH  (jika ada)</li>
+                            <li>h.	Mengisi Format M1 dengan map biru untuk calon siswa laki-laki dan map merah untuk calon siswi perempuan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pengumuman 3 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-yellow-600 hover:shadow-xl transition">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">
+                            Panduan Pengisian Formulir Pendaftaran
+                        </h2>
+                        <p class="text-gray-600 mb-4">
+                            Berikut adalah panduan lengkap untuk mengisi formulir pendaftaran PPDB:
+                        </p>
+                        <ol class="list-decimal ml-5 text-gray-600 space-y-1 mb-4">
+                            <li>Pastikan data yang diisi sudah benar dan lengkap</li>
+                            <li>Jangan ada data yang dikosongkan</li>
+                            <li>Periksa kembali sebelum mengirimkan formulir</li>
+                            <li>Simpan nomor registrasi Anda untuk verifikasi</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pengumuman 4 -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 border-l-4 border-purple-600 hover:shadow-xl transition">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">
+                            Kontak dan Dukungan Teknis
+                        </h2>
+                        <p class="text-gray-600 mb-4">
+                            Untuk pertanyaan teknis atau kendala dalam proses pendaftaran, silakan hubungi:
+                        </p>
+                        <ul class="text-gray-600 space-y-2 mb-4">
+                            <li>📧 Email: smpn1.klpc@gmail.com</li>
+                            <li>📱 Phone / Whatsapp: +62 812-2928-4171 (Pamuji), +62 852-2201-0562 (Puryati)</li>
+                            <li>⏰ Jam Operasional: Senin - Jumat, 08:00 - 14:00 WIB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <!-- CTA Section -->
-<div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 md:py-24">
+<!-- <div class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 md:py-24">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-4xl font-bold mb-6">Jangan Lewatkan Kesempatan Emas Ini!</h2>
         <p class="text-xl text-blue-100 mb-8">
@@ -204,7 +282,7 @@
             ✍️ Mulai Pendaftaran Sekarang
         </a>
     </div>
-</div>
+</div> -->
 
 <!-- Footer -->
 <footer class="bg-gray-900 text-white py-12 md:py-16">
@@ -226,8 +304,8 @@
             </div>
             <div>
                 <h4 class="text-lg font-semibold mb-3">Kontak</h4>
-                <p class="text-gray-400">Email: info@smpnegeri1kalipucang.id</p>
-                <p class="text-gray-400">Telepon: (0265) 123-4567</p>
+                <p class="text-gray-400">Email: smpn1.klpc@gmail.com</p>
+                <p class="text-gray-400">Phone / Whatsapp: <br/>+62 812-2928-4171 (Pamuji)<br/>+62 852-2201-0562 (Puryati)</p>
             </div>
         </div>
         <div class="border-t border-gray-800 pt-6 text-center text-gray-400">

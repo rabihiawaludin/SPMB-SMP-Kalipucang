@@ -13,7 +13,6 @@
         <x-navbar />
 
 <div class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 py-12 px-4 sm:px-6 lg:px-8">
-
     <div class="w-full">
         
         <div class="mb-10">
@@ -55,13 +54,15 @@
                             Calon peserta didik harus memenuhi persyaratan administrasi sebagai berikut:
                         </p>
                         <ul class="list-disc ml-5 text-gray-600 space-y-1 mb-4">
-                            <li>Fotokopi Akta Kelahiran</li>
-                            <li>Fotokopi Kartu Keluarga</li>
-                            <li>Fotokopi KTP Orang Tua</li>
-                            <li>Pas Foto 4x6 (2 lembar)</li>
-                            <li>Surat Pernyataan dari sekolah asal</li>
+                            <li>Fotocopy Ijazah / Surat Keterangan Lulus</li>
+                            <li>Fotocopy Ijazah Madrasah Diniyah (jika ada)</li>
+                            <li>Surat Keterangan Berkelakuan Baik;</li>
+                            <li>Fotocopy akte kelahiran atau kenal lahir</li>
+                            <li>Fotocopy Kartu Keluarga (KK) beserta KTP orang tua</li>
+                            <li>Fotocopy  Piagam / Setifikat Prestasi (Jika ada)</li>
+                            <li>Fotocopy Kartu Indonesia Pintar (KIP) /PKH  (jika ada)</li>
+                            <li>h.	Mengisi Format M1 dengan map biru untuk calon siswa laki-laki dan map merah untuk calon siswi perempuan</li>
                         </ul>
-                        <p class="text-gray-500 text-sm">📅 18 Mei 2026</p>
                     </div>
                 </div>
             </div>
