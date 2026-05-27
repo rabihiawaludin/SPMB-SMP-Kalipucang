@@ -11,7 +11,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Cek Hasil - PPDB</title>
+        <title>Cek Hasil - SPMB</title>
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -25,7 +25,7 @@
                  @if ($date < $pendaftaranBuka)
                     <div class="mb-8 text-center">
                         <h1 class="text-3xl font-bold text-gray-900">
-                            Pendaftaran PPDB 2026/2027
+                            Hasil SPMB SMPN 1 Kalipucang 2026/2027
                         </h1>
                         <p class="text-gray-600 mt-2 text-lg">
                             Hasil seleksi diumumkan pada tanggal {{ $pendaftaranBukaFormatted }}
@@ -35,7 +35,7 @@
                     <!-- Header -->
                     <div class="text-center mb-12">
                         <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                            📋 Cek Hasil Akhir PPDB
+                            📋 Cek Hasil Akhir SPMB
                         </h1>
                         <p class="text-lg text-gray-600">
                             Masukkan nomor registrasi dan tanggal lahir untuk melihat hasil akhir pendaftaran Anda
@@ -55,7 +55,7 @@
                                     <input
                                         type="text"
                                         name="registration_number"
-                                        placeholder="Cth: PPDB-2026-ABC123"
+                                        placeholder="Cth: SPMB-2026-ABC123"
                                         required
                                         class="w-full px-4 py-4 border-2 border-gray-300 rounded-xl focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition text-base"
                                     >

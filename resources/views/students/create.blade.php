@@ -12,7 +12,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <title>Form Pendaftaran - PPDB</title>
+        <title>Form Pendaftaran - SPMB</title>
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -27,7 +27,7 @@
                 @if ($date < $pendaftaranBuka)
                     <div class="mb-8 text-center">
                         <h1 class="text-3xl font-bold text-gray-900">
-                            Pendaftaran PPDB 2026/2027
+                            Pendaftaran Hasil SPMB SMPN 1 Kalipucang 2026/2027
                         </h1>
                         <p class="text-gray-600 mt-2 text-lg">
                             Pendaftaran dibuka pada tanggal {{ $pendaftaranBukaFormatted }}
@@ -38,7 +38,7 @@
 
                     <div class="mb-10">
                         <h1 class="text-4xl font-bold text-gray-900">
-                            Form Pendaftaran PPDB
+                            Form Pendaftaran SPMB
                         </h1>
                         <p class="text-gray-600 mt-3 text-lg">
                             Silakan isi semua data dengan benar dan lengkap
