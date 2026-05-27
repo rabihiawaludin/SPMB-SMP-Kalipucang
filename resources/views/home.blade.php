@@ -48,7 +48,7 @@
                     <div class="relative bg-gradient-to-br from-blue-50 to-blue-100 rounded-3xl p-8 shadow-2xl">
                         <!-- School Photo -->
                         <div class="rounded-2xl overflow-hidden shadow-md">
-                            <img src="https://images.unsplash.com/photo-1427504494785-cdfa6070a4a5?w=400&h=300&fit=crop" alt="Foto Sekolah" class="w-full h-[300px] object-cover">
+                            <img src="https://smpn1kalipucang.sch.id/photoguru.jpeg" alt="Foto Sekolah" class="w-full h-[300px] object-cover">
                         </div>
                     </div>
                 </div>
