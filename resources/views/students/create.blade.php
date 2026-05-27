@@ -1,3 +1,11 @@
+@php
+    $date = \Carbon\Carbon::now();
+    $pendaftaranBuka = \Carbon\Carbon::create(2026, 6, 2);
+    $dateFormatted = $date->locale('id')->isoFormat('D MMMM Y');
+    $pendaftaranBukaFormatted = $pendaftaranBuka->locale('id')->isoFormat('D MMMM Y');
+@endphp
+
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -15,7 +23,17 @@
         <div class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 py-12 px-4 sm:px-6 lg:px-8">
 
             <div class="w-full">
-                
+
+                @if ($date < $pendaftaranBuka)
+                    <div class="mb-8 text-center">
+                        <h1 class="text-3xl font-bold text-gray-900">
+                            Pendaftaran PPDB 2026/2027
+                        </h1>
+                        <p class="text-gray-600 mt-2 text-lg">
+                            Pendaftaran dibuka pada tanggal {{ $pendaftaranBukaFormatted }}
+                        </p>
+                    </div>
+                @else
                 <div class="bg-white shadow-2xl rounded-3xl p-8 md:p-12">
 
                     <div class="mb-10">
@@ -271,6 +289,7 @@
                     </form>
 
                 </div>
+                @endif
 
             </div>
 

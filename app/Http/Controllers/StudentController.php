@@ -16,10 +16,10 @@ class StudentController extends Controller
     {
         $setting = Setting::first();
 
-        if (!$setting->announcement_open) {
+        // if (!$setting->announcement_open) {
 
-            return view('announcement-closed');
-        }
+        //     return view('announcement-closed');
+        // }
     
         return view('hasil');
     }
