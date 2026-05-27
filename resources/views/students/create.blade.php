@@ -27,7 +27,7 @@
                 @if ($date < $pendaftaranBuka)
                     <div class="mb-8 text-center">
                         <h1 class="text-3xl font-bold text-gray-900">
-                            Pendaftaran Hasil SPMB SMPN 1 Kalipucang 2026/2027
+                            Pendaftaran SPMB SMPN 1 Kalipucang 2026/2027
                         </h1>
                         <p class="text-gray-600 mt-2 text-lg">
                             Pendaftaran dibuka pada tanggal {{ $pendaftaranBukaFormatted }}
