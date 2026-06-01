@@ -272,7 +272,7 @@
                         <ul class="text-gray-600 space-y-2 mb-4">
                             <li>📧 Email: smpn1.klpc@gmail.com</li>
                             <li>📱 Phone / Whatsapp: +62 812-2928-4171 (Pamuji), +62 853-5202-5153 (Deza Maulidini)</li>
-                            <li>⏰ Jam Operasional: Senin - Kamis, 08:00 - 14:00 WIB. Jum'at 08.00 - 11.00</li>
+                            <li>⏰ Jam Operasional: Senin - Kamis, 08:00 - 14:00 WIB. Jum'at 08.00 - 11.00 WIB</li>
                         </ul>
                     </div>
                 </div>
