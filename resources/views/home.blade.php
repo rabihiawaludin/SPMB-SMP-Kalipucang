@@ -34,9 +34,6 @@
                     <a href="/daftar" class="bg-white text-blue-600 font-bold py-4 px-8 rounded-xl hover:bg-blue-50 transition transform hover:scale-105 shadow-lg inline-block text-center">
                         ✍️ Daftar Sekarang
                     </a>
-                    <a href="/pengumuman" class="border-2 border-white text-white font-bold py-4 px-8 rounded-xl hover:bg-white hover:text-blue-600 transition inline-block text-center">
-                        📢 Lihat Pengumuman
-                    </a>
                 </div>
 
                 
@@ -142,7 +139,7 @@
                 </div>
                 <div class="pt-2 pb-8">
                     <h3 class="text-2xl font-bold text-gray-800">Pendaftaran Online</h3>
-                    <p class="text-gray-600 mt-2">2 Juni - 26 Juni 2026</p>
+                    <p class="text-gray-600 mt-2">15 Juni - 30 Juni 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Buka portal pendaftaran dan isi formulir dengan data diri yang lengkap dan benar. Pastikan semua persyaratan administrasi terpenuhi.</p>
                 </div>
             </div>
@@ -156,7 +153,7 @@
                 </div>
                 <div class="pt-2 pb-8">
                     <h3 class="text-2xl font-bold text-gray-800">Verifikasi & Seleksi</h3>
-                    <p class="text-gray-600 mt-2">29 Juni - 4 Juli 2026</p>
+                    <p class="text-gray-600 mt-2">1 Juli - 6 Juli 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Tim kami akan memverifikasi data yang Anda kirimkan. Hasil verifikasi akan dikirimkan melalui email dan portal pendaftaran.</p>
                 </div>
             </div>
@@ -169,8 +166,22 @@
                     <div class="w-1 h-20 bg-gradient-to-b from-blue-600 to-gray-300 mt-2"></div>
                 </div>
                 <div class="pt-2 pb-8">
+                    <h3 class="text-2xl font-bold text-gray-800">Bursa SPMB</h3>
+                    <p class="text-gray-600 mt-2">7 Juli 2026</p>
+                    <p class="text-gray-500 text-sm mt-3">Bursa SPMB Oleh Sekolah.</p>
+                </div>
+            </div>
+
+            <div class="flex gap-6 md:gap-8">
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-600 text-white font-bold text-xl shadow-lg">
+                        3
+                    </div>
+                    <div class="w-1 h-20 bg-gradient-to-b from-blue-600 to-gray-300 mt-2"></div>
+                </div>
+                <div class="pt-2 pb-8">
                     <h3 class="text-2xl font-bold text-gray-800">Pengumuman Hasil</h3>
-                    <p class="text-gray-600 mt-2">6 Juli 2026</p>
+                    <p class="text-gray-600 mt-2">8 Juli 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Pengumuman resmi hasil SPMB akan dipublikasikan secara bersamaan. Cek hasil Anda melalui portal dengan nomor registrasi dan tanggal lahir.</p>
                 </div>
             </div>
@@ -183,7 +194,7 @@
                 </div>
                 <div class="pt-2">
                     <h3 class="text-2xl font-bold text-gray-800">Daftar Ulang</h3>
-                    <p class="text-gray-600 mt-2">8 Juli - 10 Juli 2026</p>
+                    <p class="text-gray-600 mt-2">9 Juli - 10 Juli 2026</p>
                     <p class="text-gray-500 text-sm mt-3">Peserta yang diterima harus melakukan daftar ulang dengan membawa dokumen asli dan fotokopi sesuai syarat yang ditentukan.</p>
                 </div>
             </div>
