@@ -175,7 +175,7 @@
             <div class="flex gap-6 md:gap-8">
                 <div class="flex flex-col items-center">
                     <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-600 text-white font-bold text-xl shadow-lg">
-                        3
+                        4
                     </div>
                     <div class="w-1 h-20 bg-gradient-to-b from-blue-600 to-gray-300 mt-2"></div>
                 </div>
@@ -189,7 +189,7 @@
             <div class="flex gap-6 md:gap-8">
                 <div class="flex flex-col items-center">
                     <div class="flex items-center justify-center h-16 w-16 rounded-full bg-green-600 text-white font-bold text-xl shadow-lg">
-                        4
+                        5
                     </div>
                 </div>
                 <div class="pt-2">
