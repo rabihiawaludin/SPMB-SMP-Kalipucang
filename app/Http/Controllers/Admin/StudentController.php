@@ -3,49 +3,38 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Exports\StudentsExport;
 use App\Models\Student;
 use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\StreamedResponse;
 
 class StudentController extends Controller
 {
-    
-    /**
-     * Display a listing of the resource.
-     */
-    public function index(Request $request)
+    private function filteredQuery(Request $request)
     {
         $query = Student::query();
 
         if ($request->search) {
             $query->where(function ($q) use ($request) {
-
-                $q->where(
-                    'fullname',
-                    'like',
-                    '%' . $request->search . '%'
-                )
-                ->orWhere(
-                    'registration_number',
-                    'like',
-                    '%' . $request->search . '%'
-                )
-                ->orWhere(
-                    'nisn',
-                    'like',
-                    '%' . $request->search . '%'
-                );
-
+                $q->where('fullname', 'like', '%' . $request->search . '%')
+                    ->orWhere('registration_number', 'like', '%' . $request->search . '%')
+                    ->orWhere('nisn', 'like', '%' . $request->search . '%');
             });
         }
 
         if ($request->status) {
-            $query->where(
-                'verification_status',
-                $request->status
-            );
+            $query->where('verification_status', $request->status);
         }
 
-        $students = $query
+        return $query;
+    }
+
+    /**
+     * Display a listing of the resource.
+     */
+    public function index(Request $request)
+    {
+        $students = $this->filteredQuery($request)
             ->latest()
             ->paginate(10)
             ->withQueryString();
@@ -54,6 +43,15 @@ class StudentController extends Controller
             'admin.students.index',
             compact('students')
         );
+    }
+
+    public function export(Request $request): StreamedResponse
+    {
+        $students = $this->filteredQuery($request)->latest()->get();
+
+        $filename = 'data-pendaftar-' . now()->format('Y-m-d-His') . '.xlsx';
+
+        return (new StudentsExport($students))->download($filename);
     }
 
     /**

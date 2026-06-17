@@ -27,6 +27,11 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
         return view('dashboard');
     })->name('dashboard');
 
+    Route::get(
+        '/students/export',
+        [AdminStudentController::class, 'export']
+    )->name('admin.students.export');
+
     Route::resource('students', AdminStudentController::class)->only(['index', 'show']);
     Route::get('/students/{student}', [
         AdminStudentController::class,
